@@ -43,25 +43,25 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "WhirrCrew",
-    location: "Prague, Czechia",
-    description: `Front-end Web Develpoer position. Working on various projects with AI integration.`,
+    title: "Software Engineering Fellow",
+    location: "Headstarter AI | NYC (Remote)",
+    description: `Work on the construction of 5 AI software projects in 5 weeks, with the final project being a validated idea with 1000+ users.`,
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: "Jun 2024 - Present",
+    date: "Jul 2024 - Present",
   },
   {
-    title: "NAU",
-    location: "Kyiv, Ukraine",
-    description: `Bachelor's degree in Cybersecurity. Studying on the faculty of Cyber Security and Software Engineering.`,
+    title: "Software Engineering Research Assistant",
+    location: "ISU | Ames, IA",
+    description: `Helped Dr. Tsung-Pin Yeh on "The Road to the Industrial Metaverse". Developed XR application using Unity, USD, and Photon to create a cooperative VR experience to manipulate custom USD models with sub 150ms latency.`,
     icon: React.createElement(BookIcon),
-    date: "Sep 2022 - Present",
+    date: "Dec 2023 - May 2024",
   },
   {
-    title: "Self-education",
-    location: "Czechia",
-    description: `Styding Programming, Software Engineering and Web Development, picking up a great expertise in TypeScript, React, Next.js, Node.js, and database technologies (MongoDB/PostgreSQL/MySQL) utilizing Prisma for efficient data access.`,
+    title: "Undergraduate Student",
+    location: "ISU | Ames, IA",
+    description: `Formally studying Computer Science and Math. 4.00 GPA. Relevant courswork: Data Structures, Algorithms, Computer Architecture, Software Construction, Databases. Served as CS Peer Mentor, and CSE Club President.`,
     icon: React.createElement(LaptopMinimalIcon),
-    date: "Jul 2022 - Present",
+    date: "Aug 2023 - Present",
   },
 ] as const;
 
