@@ -52,7 +52,7 @@ export default function RedoTextAnimation({ delay }: IRedoTextAnimationProps) {
   }, []);
 
   return (
-    <motion.span className='lg:text-[1.7rem] md:text-[1.5rem] text-[1.2rem] h-32 max-w-92 font-bold bg-lightBeige dark:bg-darkBeige'>
+    <motion.span className='lg:text-[1.7rem] md:text-[1.5rem] text-[1.2rem] h-32 max-w-92 font-bold bg-lightBlue dark:bg-lightBlue'>
       {displayText}
     </motion.span>
   );

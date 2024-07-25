@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 10 10% 80%;
+    --background: 10 10% 90%;
     --backgroundend: 0 0% 100%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
@@ -60,6 +60,6 @@ html {
     @apply border-border;
   }
   body {
-    @apply text-foreground bg-gradient-to-tr from-background to-backgroundend;
+    @apply text-foreground bg-gradient-to-r from-background to-backgroundend;
   }
 }
