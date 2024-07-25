@@ -28,7 +28,7 @@ export default function Contact() {
       viewport={{
         once: true,
       }}>
-      <SectionHeading>Hit me up!</SectionHeading>
+      <SectionHeading>Send me a message!</SectionHeading>
       <div className='w-[min(100%,38rem)]'>
         <p className='text-gray-700 mt-6 mb-20 dark:text-white/80'>
           Please contact me directly at{" "}
@@ -59,7 +59,7 @@ export default function Contact() {
             placeholder='Your email'
           />
           <textarea
-            className='h-52 my-3 rounded-lg border p-4 bg-gray-50 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none'
+            className='h-52 my-3 rounded-lg border p-4 bg-gray-50 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none resize-none'
             name='message'
             placeholder='Your message 👋'
             required
