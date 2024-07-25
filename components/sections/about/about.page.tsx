@@ -39,18 +39,16 @@ export default function About() {
         }}>
         <div className='relative group w-full h-full flex justify-center items-center'>
           <div className='flex flex-col gap-3 relative justify-center items-center text-center lg:text-start lg:block lg:absolute lg:right-0 lg:top-[27%] xl:top-1/3 max-w-96 lg:max-w-[580px] xl:max-w-[650px] text-md lg:text-lg z-40 font-semibold tracking-wide text-primary'>
-            <div className='flex flex-col gap-6'>
+            <div className='flex flex-col gap-6 leading-relaxed'>
               <span>
-                I&apos;m Full-stack developer with expertise in TypeScript,
-                React, Next.js, Node.js, and database technologies
-                (MongoDB/PostgreSQL/MySQL) utilizing Prisma for efficient data
-                access. Proven ability to deliver user-centered web applications
-                with a focus on intuitive experiences and user interaction.
+                I&apos;m an AI Engineer with expertise in fullstack development
+                using TypeScript/React/Next, Node/Express/Flask, database
+                technologies like MongoDB/PostgreSQL/MySQL, and AI integrations
+                like LangChain, LlamaIndex, and Pinecone.
               </span>
               <span>
-                Seeking for Web Development opportunities where I can leverage
-                my skills to create meaningful connections between products and
-                users.
+                I am also an AWS Certified Cloud Practicioner, with practical
+                experience using services like S3, RDS, and EC2.
               </span>
               <p className='flex flex-col items-center lg:items-start'>
                 <span>So if you are interested,</span>

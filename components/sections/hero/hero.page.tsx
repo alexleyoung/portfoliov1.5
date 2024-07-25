@@ -6,7 +6,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import TextAnimation from "./text-animation";
 import { smoothScrollTo } from "@/lib/utils";
-import { CircleUser, Download, Linkedin } from "lucide-react";
+import { CircleUser, Link, Linkedin } from "lucide-react";
 import Image from "next/image";
 import { useActiveSectionContext } from "@/stores/active-section/active-section-context";
 
@@ -66,7 +66,7 @@ export default function Hero() {
                 delay: 0.1,
               }}>
               <a
-                className='group w-64 sm:w-auto bg-darkBg text-white hover:dark:text-black px-7 py-3 cursor-pointer flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-darkBeige active:scale-105 transition justify-center'
+                className='group w-64 sm:w-auto bg-darkBg text-white hover:dark:text-black px-7 py-3 cursor-pointer flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-darkBlue active:scale-105 transition justify-center'
                 onClick={(e) => {
                   smoothScrollTo({ e, id: "contact" });
                   setActiveSection("contact");
@@ -78,10 +78,10 @@ export default function Hero() {
 
               <a
                 className='group w-64 sm:w-auto bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 justify-center'
-                href='/CV_Azimov_Maksym.pdf'
-                download>
-                Download CV{" "}
-                <Download className='opacity-60 group-hover:opacity-100' />
+                href='https://drive.google.com/file/d/1RruoLg72XHJ64C8LLnTZSS__sJlGbDew/view?usp=drive_link'
+                target='_blank'>
+                See Resume{" "}
+                <Link className='opacity-60 group-hover:opacity-100' />
               </a>
 
               <div className='flex gap-2 '>
