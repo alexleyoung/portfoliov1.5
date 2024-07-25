@@ -56,7 +56,7 @@ export default function Hero() {
                 Hey ! 👋
               </motion.span>
               <br />
-              <TextAnimation delay={1} baseText={`I'm Alex`} />
+              <TextAnimation delay={1} baseText={`I'm Alex.`} />
             </div>
             <motion.div
               className='flex flex-col md:flex-row w-92 items-center md:mt-12 justify-center gap-3 px-4 lg:text-lg font-medium text-sm z-50'
@@ -87,14 +87,14 @@ export default function Hero() {
               <div className='flex gap-2 '>
                 <a
                   className='bg-white p-4 text-gray-700 hover:text-blue-600 duration-300 flex items-center justify-center gap-2 rounded-full w-[60px] h-[60px] focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
-                  href='https://www.linkedin.com/in/maksym-azimov/'
+                  href='https://www.linkedin.com/in/alexleyoung/'
                   target='_blank'>
                   <Linkedin />
                 </a>
 
                 <a
                   className='bg-white p-4  flex items-center gap-2 rounded-full focus:scale-105 hover:scale-105 hover:text-gray-950 w-[60px] h-[60px] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 justify-center'
-                  href='https://github.com/bbyc4kes'
+                  href='https://github.com/alexleyoung'
                   target='_blank'>
                   <Image
                     width={25}
