@@ -31,14 +31,23 @@ export default function About() {
       id='about'>
       <SectionHeading>About Me</SectionHeading>
       <motion.div
-        className='w-full lg:w-[980px] xl:w-[1150px] lg:h-[700px] overflow-hidden'
+        className='w-full overflow-hidden'
         ref={divRef}
         style={{
           scale: scaleProgess,
           opacity: opacityProgess,
         }}>
-        <div className='relative group w-full h-full flex justify-center items-center'>
-          <div className='flex flex-col gap-3 relative justify-center items-center text-center lg:text-start lg:block lg:absolute lg:right-0 lg:top-[27%] xl:top-1/3 max-w-96 lg:max-w-[580px] xl:max-w-[650px] text-md lg:text-lg z-40 font-semibold tracking-wide text-primary'>
+        <div className='group w-full h-full flex justify-center items-center'>
+          <div className='flex border flex-col lg:flex-row gap-12 justify-center items-center text-center lg:text-start max-w-[40rem] lg:max-w-[80rem] px-12 text-md lg:text-lg z-40 font-semibold tracking-wide text-primary'>
+            <Image
+              src={portfolioImg}
+              alt='portfolio image'
+              placeholder='blur'
+              width={470}
+              height={470}
+              className='rounded-full z-10 lg:w-[380px] lg:h-[380px] xl:w-[470px] xl:h-[470px] border-8'
+            />
+
             <div className='flex flex-col gap-6 leading-relaxed'>
               <span>
                 I&apos;m an AI Engineer studying CS & Math @ ISU with expertise
@@ -64,18 +73,6 @@ export default function About() {
                   </span>
                 </Link>
               </p>
-            </div>
-          </div>
-          <div className='absolute lg:left-0 lg:top-1/4 z-30'>
-            <div className='relative lg:w-[380px] lg:h-[380px] xl:w-[470px] xl:h-[470px]'>
-              <Image
-                src={portfolioImg}
-                alt='portfolio image'
-                placeholder='blur'
-                width={470}
-                height={470}
-                className='rounded-full z-10 lg:w-[380px] lg:h-[380px] xl:w-[470px] xl:h-[470px]'
-              />
             </div>
           </div>
         </div>

@@ -31,7 +31,7 @@ export default function RootLayout({
           "flex justify-center items-center relative",
           fontMontserrat.className
         )}>
-        <div className='flex flex-col min-h-screen w-full'>
+        <div className='flex flex-col min-h-screen w-full px-12 lg:px-0'>
           <ActiveSectionContextProvider>
             <ThemeProvider
               attribute='class'

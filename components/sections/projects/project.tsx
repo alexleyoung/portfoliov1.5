@@ -69,6 +69,11 @@ export default function Project({
           
           group-even:right-[initial] group-even:-left-40`}
           />
+          <Image
+            className='sm:hidden mx-auto aspect-auto w-48 p-3'
+            src={imageUrl}
+            alt='Project I worked on'
+          />
         </section>
       </Link>
     </motion.div>
