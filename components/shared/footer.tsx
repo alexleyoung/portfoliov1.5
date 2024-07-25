@@ -10,9 +10,7 @@ export default function Footer() {
         <p className='text-xs'>
           <span className='font-semibold'>
             How about we break the ice and start a conversation?
-          </span>{" "}
-          It&apos;s like adding sprinkles to the cake of life - makes everything
-          more fun!
+          </span>
         </p>
       </section>
     </footer>
