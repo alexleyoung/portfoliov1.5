@@ -38,14 +38,14 @@ export default function About() {
           opacity: opacityProgess,
         }}>
         <div className='group w-full h-full flex justify-center items-center'>
-          <div className='flex border flex-col lg:flex-row gap-12 justify-center items-center text-center lg:text-start max-w-[40rem] lg:max-w-[80rem] px-12 text-md lg:text-lg z-40 font-semibold tracking-wide text-primary'>
+          <div className='flex flex-col lg:flex-row gap-12 justify-center items-center text-center lg:text-start max-w-[40rem] lg:max-w-[80rem] px-12 text-md lg:text-lg z-40 font-semibold tracking-wide text-primary'>
             <Image
               src={portfolioImg}
               alt='portfolio image'
               placeholder='blur'
               width={470}
               height={470}
-              className='rounded-full z-10 lg:w-[380px] lg:h-[380px] xl:w-[470px] xl:h-[470px] border-8'
+              className='rounded-full z-10 lg:w-[380px] lg:h-[380px] xl:w-[470px] xl:h-[470px] border-4'
             />
 
             <div className='flex flex-col gap-6 leading-relaxed'>
