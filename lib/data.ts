@@ -1,13 +1,8 @@
 import React from "react";
 
-import campwithusImg from "@/public/images/camp-with-us.png";
-import carcatalogImg from "@/public/images/car-catalog.png";
 import cseTechImg from "@/public/images/cse-tech.png";
-import projectmanagementImg from "@/public/images/project-management.png";
-import reactfoodImg from "@/public/images/react-food.png";
-import surgeImg from "@/public/images/surge.png";
 import factcheckImg from "@/public/images/factcheck.jpg";
-import aiLawyerImg from "@/public/images/ai-lawyer.png";
+
 import {
   BookIcon,
   BriefcaseBusinessIcon,
@@ -52,7 +47,7 @@ export const experiencesData = [
   {
     title: "Software Engineering Research Assistant",
     location: "ISU | Ames, IA",
-    description: `Helped Dr. Tsung-Pin Yeh on "The Road to the Industrial Metaverse". Developed XR application using Unity, USD, and Photon to create a cooperative VR experience to manipulate custom USD models with sub 150ms latency.`,
+    description: `Worked alongside Dr. Tsung-Pin Yeh on "The Road to the Industrial Metaverse". Developed XR application using Unity, USD, and Photon to create a cooperative VR experience to manipulate custom USD models in realtime.`,
     icon: React.createElement(BookIcon),
     date: "Dec 2023 - May 2024",
   },
@@ -66,11 +61,8 @@ export const experiencesData = [
 ] as const;
 
 export const images = {
-  campwithusImg,
-  carcatalogImg,
   cseTechImg,
-  projectmanagementImg,
-  reactfoodImg,
+  factcheckImg,
 };
 
 export const projectsData = [
