@@ -15,7 +15,7 @@ export default function Projects() {
       className='flex flex-col justify-center items-center w-full min-h-screen scroll-mt-36 dark:bg-darkBg dark:text-white'
       id='projects'
       ref={ref}>
-      <SectionHeading>Work</SectionHeading>
+      <SectionHeading>Projects</SectionHeading>
       <div className='my-24 flex flex-col gap-4 justify-center items-center'>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>

@@ -23,8 +23,12 @@ export const links = [
     id: "projects",
   },
   {
-    name: "Experience",
+    name: "Work",
     id: "experience",
+  },
+  {
+    name: "Leadership",
+    id: "leadership",
   },
   {
     name: "Skills",
@@ -33,30 +37,6 @@ export const links = [
   {
     name: "Contact",
     id: "contact",
-  },
-] as const;
-
-export const experiencesData = [
-  {
-    title: "Software Engineering Fellow",
-    location: "Headstarter AI | NYC (Remote)",
-    description: `Work on the construction of 5 AI software projects in 5 weeks, with the final project being a validated idea with 1000+ users.`,
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: "Jul 2024 - Present",
-  },
-  {
-    title: "Software Engineering Research Assistant",
-    location: "ISU | Ames, IA",
-    description: `Worked alongside Dr. Tsung-Pin Yeh on "The Road to the Industrial Metaverse". Developed XR application using Unity, USD, and Photon to create a cooperative VR experience to manipulate custom USD models in realtime.`,
-    icon: React.createElement(BookIcon),
-    date: "Dec 2023 - May 2024",
-  },
-  {
-    title: "Undergraduate Student",
-    location: "ISU | Ames, IA",
-    description: `Formally studying Computer Science and Math. 4.00 GPA. Relevant courswork: Data Structures, Algorithms, Computer Architecture, Software Construction, Databases. Served as CS Peer Mentor, and CSE Club President.`,
-    icon: React.createElement(LaptopMinimalIcon),
-    date: "Aug 2023 - Present",
   },
 ] as const;
 
@@ -96,6 +76,57 @@ export const projectsData = [
     ],
     imageUrl: factcheckImg,
     link: "https://github.com/maarao/webscraper/tree/main",
+  },
+] as const;
+
+export const experiencesData = [
+  {
+    title: "Software Engineering Fellow",
+    location: "Headstarter AI | NYC (Remote)",
+    description: `Work on the construction of 5 AI software projects in 5 weeks, with the final project being a validated idea with 1000+ users.`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: "Jul 2024 - Present",
+  },
+  {
+    title: "Software Engineering Research Assistant",
+    location: "ISU | Ames, IA",
+    description: `Worked alongside Dr. Tsung-Pin Yeh on "The Road to the Industrial Metaverse". Developed XR application using Unity, USD, and Photon to create a cooperative VR experience to manipulate custom USD models in realtime.`,
+    icon: React.createElement(BookIcon),
+    date: "Dec 2023 - May 2024",
+  },
+  {
+    title: "Undergraduate Student",
+    location: "ISU | Ames, IA",
+    description: `Formally studying Computer Science and Math. 4.00 GPA. Relevant courswork: Data Structures, Algorithms, Computer Architecture, Software Construction, Databases. Served as CS Peer Mentor, and CSE Club President.`,
+    icon: React.createElement(LaptopMinimalIcon),
+    date: "Aug 2023 - Present",
+  },
+] as const;
+
+export const leadershipData = [
+  {
+    title: "CSE Club President",
+    location: "ISU | Ames, IA",
+    description: `Lead a team of 6 officers to plan and execute 20+ events per semester. Increased club membership by 30% and garnered ~$10,000 in funding from sponsors.`,
+    date: "May 2023 - Present",
+  },
+  {
+    title: "CS Peer Mentor",
+    location: "ISU | Ames, IA",
+    description: `Mentored 25 first-year CS students on CS/SWE pathways at ISU. Led weekly classes focused on facilitating socialization and announcing CS opportunities. Hosted weekly office hours and study sessions. Helped students with homework, projects, and exam prep.`,
+    date: "Aug 2023 - Present",
+  },
+  {
+    title: "MSA Peer Educator",
+    location: "ISU | Ames, IA",
+    description: `Helped 20+ high-achieving multicultural navigate their first semester at ISU. Assisted MSA (Multicultural Student Affairs) in hosting 7 events throughout each semester. Answer student questions about work/life balance, goal setting, future planning, etc.`,
+    date: "Aug 2023 - Present",
+  },
+  {
+    title: "FHP Leader",
+    location: "ISU | Ames, IA",
+    description: `Led 12 first-year ISU Honors students through their first semester. Co-led a semester-long, weekly seminar with 15 unique lesson plans focused on allowing the students to thrive academically and personally at ISU. Helped students with course planning and navigating university struggles.`,
+    date: "Feb 2023 - Present",
   },
 ] as const;
 
