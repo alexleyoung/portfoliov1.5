@@ -1,4 +1,4 @@
-const leaderCard = ({
+const LeadershipCard = ({
   leadershipData,
 }: {
   leadershipData: {
@@ -8,7 +8,7 @@ const leaderCard = ({
     date: string;
   };
 }) => {
-  return <div>leaderCard</div>;
+  return <div>{leadershipData.title}</div>;
 };
 
-export default leaderCard;
+export default LeadershipCard;
