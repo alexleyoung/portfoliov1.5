@@ -2,7 +2,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { leadershipData } from "@/lib/data";
 import LeadershipCard from "@/components/sections/leadership/leadershipCard";
 import SectionDivider from "@/components/shared/section-divider";
-import { ExpandableCardDemo } from "./grid";
+import { Grid } from "./grid";
 import SectionHeading from "@/components/shared/section-heading";
 
 const Leadership = () => {
@@ -14,12 +14,7 @@ const Leadership = () => {
       id='leadership'
       ref={ref}>
       <SectionHeading>Leadership</SectionHeading>
-      {/* <div className='flex flex-col gap-4'>
-        {leadershipData.map((data, index) => (
-          <LeadershipCard key={index} leadershipData={data} />
-        ))}
-      </div> */}
-      <ExpandableCardDemo />
+      <Grid />
       <SectionDivider />
     </section>
   );

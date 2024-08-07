@@ -4,7 +4,7 @@ import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 
-export function ExpandableCardDemo() {
+export function Grid() {
   const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
     null
   );
@@ -101,7 +101,11 @@ export function ExpandableCardDemo() {
                     exit={{ opacity: 0 }}
                     href={active.ctaLink}
                     target='_blank'
-                    className='px-4 py-3 text-sm rounded-full font-bold bg-green-500 text-white'>
+                    className={`${
+                      active.title === "President"
+                        ? "px-4 py-3 text-sm rounded-full font-bold bg-lightBlue text-secondary"
+                        : "hidden"
+                    }`}>
                     {active.ctaText}
                   </motion.a>
                 </div>
@@ -197,7 +201,7 @@ const cards = [
     description: "CSE Club @ ISU",
     src: "/images/leadership/cselogo.png",
     ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://www.stuorg.iastate.edu/cse",
     content: () => {
       return (
         <p>
