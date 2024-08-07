@@ -1,6 +1,4 @@
 import { useSectionInView } from "@/lib/hooks";
-import { leadershipData } from "@/lib/data";
-import LeadershipCard from "@/components/sections/leadership/leadershipCard";
 import SectionDivider from "@/components/shared/section-divider";
 import { Grid } from "./grid";
 import SectionHeading from "@/components/shared/section-heading";
