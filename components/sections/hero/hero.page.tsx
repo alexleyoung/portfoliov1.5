@@ -78,7 +78,7 @@ export default function Hero() {
 
               <a
                 className='group w-64 sm:w-auto bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 justify-center'
-                href='https://drive.google.com/file/d/1RruoLg72XHJ64C8LLnTZSS__sJlGbDew/view?usp=drive_link'
+                href='https://drive.google.com/file/d/1NkFjlkYYZhoDIX5wnePASoWBCxvOZtf6/view?usp=sharing'
                 target='_blank'>
                 See Resume{" "}
                 <Link className='opacity-60 group-hover:opacity-100' />
