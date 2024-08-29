@@ -2,6 +2,7 @@ import React from "react";
 
 import cseTechImg from "@/public/images/cse-tech.png";
 import factcheckImg from "@/public/images/factcheck.jpg";
+import nlProf from "@/public/images/prof.png";
 
 import {
   BookIcon,
@@ -46,6 +47,21 @@ export const images = {
 };
 
 export const projectsData = [
+  {
+    title: "NLProfessor",
+    description:
+      "RAG-powered natural language queries to find your ideal college professor. Reviews are embedded and stored in Pinecone, while user queries are embedded to perform similarity search. Similarity search results are then passed to GPT as additional context.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Supabase",
+      "OpenAI API",
+      "Pinecone",
+    ],
+    imageUrl: nlProf,
+    link: "https://ai-professor-iota.vercel.app/",
+  },
   {
     title: "CSE Tech",
     description:
