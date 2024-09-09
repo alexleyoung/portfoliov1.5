@@ -33,20 +33,20 @@ export default function RootLayout({
         )}>
         <div className='flex flex-col min-h-screen w-full px-12 lg:px-0'>
           <ActiveSectionContextProvider>
-            <ThemeProvider
+            {/* <ThemeProvider
               attribute='class'
               defaultTheme='light'
               enableSystem
-              disableTransitionOnChange>
-              <Header />
-              {children}
-              <Footer />
-              {/* dark mode toggle; enable when fixed */}
-              {/* <div className='fixed top-1 left-1 sm:left-6 sm:bottom-6 sm:top-auto right-auto z-[99]'>
+              disableTransitionOnChange> */}
+            <Header />
+            {children}
+            <Footer />
+            {/* dark mode toggle; enable when fixed */}
+            {/* <div className='fixed top-1 left-1 sm:left-6 sm:bottom-6 sm:top-auto right-auto z-[99]'>
                 <ModeToggle />
               </div> */}
-              <Toaster position='top-right' />
-            </ThemeProvider>
+            <Toaster position='top-right' />
+            {/* </ThemeProvider> */}
           </ActiveSectionContextProvider>
         </div>
       </body>

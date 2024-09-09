@@ -3,6 +3,7 @@ import React from "react";
 import cseTechImg from "@/public/images/cse-tech.png";
 import factcheckImg from "@/public/images/factcheck.jpg";
 import nlProf from "@/public/images/prof.png";
+import asap from "@/public/images/asap.png";
 
 import {
   BookIcon,
@@ -44,13 +45,30 @@ export const links = [
 export const images = {
   cseTechImg,
   factcheckImg,
+  nlProf,
+  asap,
 };
 
 export const projectsData = [
   {
+    title: "asap.",
+    description:
+      "All-in-one schedule management solution. Automatically schedule your week with AI using preferences, event, and task data. Create group calendars to automatically find availability.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Supabase",
+      "OpenAI API",
+      "Pinecone",
+    ],
+    imageUrl: asap,
+    link: "https://tryasap.vercel.app/",
+  },
+  {
     title: "NLProfessor",
     description:
-      "RAG-powered natural language queries to find your ideal college professor. Reviews are embedded and stored in Pinecone, while user queries are embedded to perform similarity search. Similarity search results are then passed to GPT as additional context.",
+      "RAG-powered natural language queries to find your ideal college professor. User queries are embedded to perform similarity search, and results are passed to an LLM as additional context.",
     tags: [
       "React",
       "TypeScript",
@@ -101,7 +119,7 @@ export const experiencesData = [
     location: "Headstarter AI | NYC (Remote)",
     description: `Work on the construction of 5 AI software projects in 5 weeks, with the final project being a validated idea with 1000+ users.`,
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: "Jul 2024 - Present",
+    date: "Jul 2024 - Sep 2024",
   },
   {
     title: "Software Engineering Research Assistant",
